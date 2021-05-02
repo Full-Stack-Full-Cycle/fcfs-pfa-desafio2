@@ -1,9 +1,5 @@
 > Provendo dados de um banco mysql através de uma API node e expondo o serviço atrvés de um proxy reverso (nginx)
 
-<p align="center">
-  <img align="center" src="isoflow.png" width="600" border="0">
-</p>
-
 # 📘 Infos
 
 **O desafio** 
@@ -36,6 +32,4 @@ docker compose up
 
 # 💻 Resultado esperado
 
-<p align="center">
-  <img align="center" src="request.jpeg" width="600" border="0">
-</p>
+> Ao consumir http:localhost:8000 deve-se retornar uma lista em json com alguns títulos dos conteudos do curso.
